@@ -19,8 +19,7 @@ namespace FileIO_OperationsDemo
 
         }
         string filePath = @"H:\Assignments\FileIO_Operations\FileIO_OperationsDemo\IOTextFile.txt";
-        string copyFilePath = @"";
-        
+        string copyFilePath = @"H:\Assignments\FileIO_Operations\FileIO_OperationsDemo\IOTextFile.txt";
         public void FileExist()
         {
             if (File.Exists(filePath))
